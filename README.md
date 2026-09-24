@@ -4,19 +4,30 @@ A responsive Pokédex built with Next.js and the public [PokéAPI](https://pokea
 
 ## Run locally
 
-1. Install Node.js (18 or newer).
-2. In this folder, install dependencies:
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/SAKSham197/Pokemon_project.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd Pokemon_project
+   ```
+
+3. Install dependencies:
 
    ```bash
    npm install
    ```
 
-3. Start the development server:
+4. Start the development server:
 
    ```bash
    npm run dev
    ```
 
-4. Open [http://localhost:3000](http://localhost:3000).
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 The app fetches data and artwork from PokéAPI, so an internet connection is needed while using it. No API key is required.
